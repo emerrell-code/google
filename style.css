@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+body{
+    font-family: 'Product Sans', sans-serif;
+    text-align: center;
+}
+
+#blue{
+    color: #4285F4;
+}
+#red{
+    color: #DB4437;
+}
+#yellow{
+    color:#F4B400;
+}
+#green{
+    color: #0F9D58;
+}
+
+h1{
+    font-size: 150px;
+    text-align: center;
+    margin-top: 250px;
+}
+header, a{
+    text-align: right;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+header, a:hover{
+    color: #DB4437;
+}
+form, input{
+    height: 20px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: -70px;
+    padding: 5px;
+    border-radius: 40px;
+    border: 2px solid rgb(218, 221, 225);
+    text-align: left;
+    padding-left: 20px;
+}
+button{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(247, 248, 249);
+    box-shadow: none;
+}
+button, a{
+    color: black;
+    font-size: 15px;
+}
+
+header>h1 {
+    font-size: 25px;
+    text-align: left;
+    margin-top: auto;
+}
+
+#image{
+    margin-top: 100px;
+}
+
+#search_fields{
+    border-radius: 0;
+}
+
