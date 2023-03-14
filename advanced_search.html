@@ -2,45 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
-    <title>Advanced Search</title>
+    <link rel="shotcut icon" href="images/google-icon.svg">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <link rel="stylesheet" href="advanced.css">
+	<title>Google advance</title>
 </head>
 <body>
+
     <header>
-        <h1>Google</h1>
-        <a href="index.html">Search</a>
-        <a href="image_search.html">Image Search</a>
+		<h3><span id="blue">G</span><span id="red">o</span><span id="yellow">o</span><span id="blue">g</span><span id="green">l</span><span id="red">e</span></h3>
     </header>
+		<div class="menu" id="nav">
+          <a href="index.html">Search</a>
+          <a href="image_search.html">Image Search</a>
+    	</div>
+	
+    <!-- <header>
+        <h3><span id="blue">G</span><span id="red">o</span><span id="yellow">o</span><span id="blue">g</span><span id="green">l</span><span id="red">e</span></h3>
+    </header> -->
 
-    <h1 id="advanced_search">Advanced Search</h1>
-    <hr>
+	<!-- <form action="https://www.google.com/search">
+	<div class="top-bar"> -->
+		<h1>Advanced Search</h1>
+        <hr>
+		<!-- <div class="menu" id="nav">
+          <a href="index.html">Search</a>
+          <a href="image_search.html">Image Search</a>
+    	</div>
+	</div> -->
+	
+	<div class="main_div">
+        <div class="column column1">
 
-    <div id="search_fields">
-        <h2>Find pages with...</h2>
+            <span class="first">
+                Find pages with...
+            </span>
 
-        <h6>all these words:</h6>
-        <input type="text" id="ad"> 
-        
-        <h6>this exact word or phrase:</h6>
-        <input type="text" id="ad">
-        
-        <h6>any of these words:</h6>
-        <input type="text" id="ad">
-        
-        <h6>none of these words:</h6>
-        <input type="text" id="ad">
+            <div class="row">
+                <label for="first">all these words:</label>
+                <input type="text" id="first" name="as_q" />
+            </div>
+            <div class="row">
+                <label for="second">this exact word or phrase:</label>
+                <input type="text" id="second" name="as_epq" />
+            </div>
+            <div class="row">
+                <label for="third">any of these words:</label>
+                <input type="text" id="third" name="as_oq" />
+            </div>
+            <div class="row">
+                <label for="fourth">none of these words:</label>
+                <input type="text" id="fourth" name="as_eq" />
+            </div>
+            <button type="submit" style="align-self: right;">Advanced Search</button>
+        </div>
+
+
+        <div class="column column2">
+            <span class="first">
+                To do this in the search box.
+            </span>
+
+
+            <div class="row">
+                <p>Type the important words: tri-colour rat terrier</p>
+            </div>
+
+            <div class="row">
+                <p>Put exact words in quotes: "rat terrier"</p>
+            </div>
+
+            <div class="row">
+                <p>Type OR between all the words you want: miniature OR standard</p>
+            </div>
+
+            <div class="row">
+                <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+            </div>
+        </div>
     </div>
-
-    <!-- <form action="https://google.com/search">
-        <input type="text" name="q"> -->
-        <!-- <input type="submit" value="Google Search"> -->
-    <!-- </form>
-    <div>
-        <button><a href="index.html">Google Search</a></button>
-        <button><a href="">I'm feeling lucky</a></button>
-    </div>
-</body> -->
+	</form>
+</body>
 </html>
